@@ -26,8 +26,38 @@ Place the following files in the working directory:
 
 1.  Export the Gradebook CSV file from Canvas and place it in the working directory.
 
-    ![](images/canvas.png)
+    <img src="images/canvas.png" width="500"/>
 
-2.  Go to polleverywhere.com and log in to Ryan's account (note that you need to select "Use password instead", otherwise the website might do something weird). ![](images/pollev_login.png)
+2.  Go to polleverywhere.com and log in to Ryan's account (note that you need to select "Use password instead", otherwise the website might do something weird).
 
-3.  
+    <img src="images/pollev_login.png" width="500"/>
+
+3.  Download the PollEv report and place it in the working directory (`Activities` -\> folder for semester -\> polls for both sessions -\> `Create report` -\> `Audience response` -\> `Create report`-\> `Download`)
+
+    <img src="images/pollev_1.png" width="500"/>
+
+    <img src="images/pollev_2.png" width="500"/>
+
+    <img src="images/pollev_3.png" width="500"/>
+
+    <img src="images/pollev_4.png" width="500"/>
+
+4.  Open the R code and **update the date and lecture number to match the most recent lecture.**
+
+    <img src="images/r.png" width="500"/>
+
+5.  Upload the generated CSV file (`graded[date].csv`) to Canvas (`Grades` -\> `Import` -\> `Select File` -\> `Upload Data` -\> `Choose assignment` [A new assignment] -\> `Continue`)
+
+    <img src="images/canvas_import.png" width="500"/>
+
+    <img src="images/canvas_new_assignment.png" width="500"/>
+
+6.  Post grades
+
+    <img src="images/canvas_post_grades.png" width="500"/>
+    
+## Special Note for Canvas CSV & Add-Drop Period
+
+## Troubleshooting
+
+## Future Development
